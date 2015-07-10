@@ -1,0 +1,82 @@
+/*====================================================
+	- HTML Table Filter Generator stylesheet
+	- do not hesitate to edit classes below to
+	change filter grid appearance
+=====================================================*/
+
+/* TABLE LAYOUT
+=====================================================*/
+table.TF{
+	font:normal 12px arial, tahoma, helvetica, sans-serif;
+	border-top:1px solid #D0D0D0; border-left:1px solid #D0D0D0;
+	border-bottom:1px solid #ccc; border-right:1px solid #ccc;
+}
+table.TF th{
+	background-color:#C4FCAB;
+	border-right:2px solid #D0D0D0;
+	border-top:1px solid #fff;
+}
+
+table.TF tr.success > td {
+  background-color: #dff0d8;
+}
+
+table.TF tr.error > td {
+  background-color: #FF8080;
+}
+
+table.TF tr.warning > td {
+  background-color: #F4E595;
+}
+
+table.TF tr.info > td {
+  background-color: #d9edf7;
+}
+
+table.TF tr{
+	background-color:#ffffff;
+	text-align: center;
+}
+
+table.TF td{ border-right:2px solid #D0D0D0; }
+
+/* TABLE LAYOUT
+=====================================================*/
+table.TF2{
+	font:normal 12px arial, tahoma, helvetica, sans-serif;
+	border-top:1px solid #D0D0D0; border-left:1px solid #D0D0D0;
+	border-bottom:1px solid #ccc; border-right:1px solid #ccc;
+}
+table.TF2 th{
+	background-color:#C4FCAB;
+	border-right:2px solid #D0D0D0;
+	border-top:1px solid #fff;
+}
+
+table.TF2 tr.success > td {
+  background-color: #dff0d8;
+}
+
+table.TF2 tr.error > td {
+  background-color: #FF8080;
+}
+
+table.TF2 tr.warning > td {
+  background-color: #F4E595;
+}
+
+table.TF2 tr.info > td {
+  background-color: #d9edf7;
+}
+
+table.TF2 tr{
+	background-color:#ffffff;
+}
+
+table.TF2 td{ border-right:2px solid #D0D0D0; }
+
+.loading {	padding-top:31px;
+    padding-left:31px;
+	padding-bottom: 31px;
+    background: url(/img/ajax-loader.gif) left no-repeat;
+}
